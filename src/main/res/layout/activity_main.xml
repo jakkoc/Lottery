@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/TitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/first_ball"
+            style="@style/BallStyle" />
+
+        <TextView
+            android:id="@+id/second_ball"
+            style="@style/BallStyle" />
+
+        <TextView
+            android:id="@+id/third_ball"
+            style="@style/BallStyle" />
+
+        <TextView
+            android:id="@+id/fourth_ball"
+            style="@style/BallStyle" />
+
+        <TextView
+            android:id="@+id/fifth_ball"
+            style="@style/BallStyle" />
+
+        <TextView
+            android:id="@+id/sixth_ball"
+            style="@style/BallStyle" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/single_roll_button"
+        style="@style/ButtonStyle"
+        android:layout_marginBottom="32dp"
+        android:onClick="betOnce"
+        android:text="@string/single_bet" />
+
+    <Button
+        android:id="@+id/multiple_rolls_button"
+        style="@style/ButtonStyle"
+        android:layout_marginBottom="8dp"
+        android:onClick="betMultipleTimes"
+        android:text="@string/multiple_bets" />
+
+    <SeekBar
+        android:id="@+id/tickets_quantity_seek_bar"
+        android:layout_width="410dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:max="120"
+        android:progressDrawable="@drawable/custom_progress"
+        android:splitTrack="false"
+        android:thumb="@drawable/custom_thumb" />
+
+    <TextView
+        android:id="@+id/prize_text_view"
+        style="@style/ButtonStyle"
+        android:gravity="center"
+        android:textColor="@color/prizeColor" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TitleStyle">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">56sp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/titleColor</item>
+    </style>
+
+    <style name="BallStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">4dp</item>
+        <item name="android:layout_marginEnd">4dp</item>
+        <item name="android:background">@drawable/circle</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">380dp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/titleColor</item>
+        <item name="android:textColor">@color/endColor</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+</resources>

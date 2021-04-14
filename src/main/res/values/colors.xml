@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#2E3138</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="startColor">#6C6F7D</color>
+    <color name="endColor">#CCC9E7</color>
+    <color name="titleColor">#2E3138</color>
+    <color name="firstBallColor">#FF595E</color>
+    <color name="secondBallColor">#FFCA3A</color>
+    <color name="thirdBallColor">#8AC926</color>
+    <color name="fourthBallColor">#1982C4</color>
+    <color name="fifthBallColor">#8C5383</color>
+    <color name="sixthBallColor">#6A4C93</color>
+    <color name="prizeColor">#E29A28</color>
+    <color name="numberMatch">#00A550</color>
+    <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lottery</string>
+    <string name="single_bet">single bet</string>
+    <string name="multiple_bets">multiple bets(1)</string>
+</resources>
